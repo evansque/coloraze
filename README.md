@@ -1,4 +1,4 @@
-# coloraze
+# Coloraze
 
 [![build status](https://img.shields.io/travis/evansque/coloraze.svg)](https://travis-ci.com/evansque/coloraze)
 [![code coverage](https://img.shields.io/codecov/c/github/evansque/coloraze.svg)](https://codecov.io/gh/evansque/coloraze)
@@ -15,8 +15,8 @@
 
 * [Install](#install)
 * [Usage](#usage)
-* [Contributors](#contributors)
 * [License](#license)
+* [Contributors](#contributors)
 
 
 ## Install
@@ -46,16 +46,16 @@ console.log(coloraze.renderName());
 ```
 
 
+## License
+
+[MIT](LICENSE) © Evan Levesque
+
+
 ## Contributors
 
 | Name              |
 | ----------------- |
 | **Evan Levesque** |
-
-
-## License
-
-[MIT](LICENSE) © Evan Levesque
 
 
 ## 
