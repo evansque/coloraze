@@ -20,12 +20,9 @@ class Script {
     let c;
     colors.forEach(color => {
       distance = Math.sqrt(
-        color.rgb.r -
-          rgb.r ** 2 +
-          color.rgb.g -
-          rgb.g ** 2 +
-          color.rgb.b -
-          rgb.b ** 2
+        (color.rgb.r - rgb.r) ** 2 +
+          (color.rgb.g - rgb.g) ** 2 +
+          (color.rgb.b - rgb.b) ** 2
       );
 
       if (distance < minDistance) {

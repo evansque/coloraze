@@ -10,17 +10,7 @@ test('returns itself', t => {
   t.true(t.context.script instanceof Script);
 });
 
-// test('sets a config object', t => {
-//   const script = new Script(false);
-//   t.true(script instanceof Script);
-// });
-
-// test('renders name', t => {
-//   const { script } = t.context;
-//   t.is(script.name('#3498db'), 'Bleu de France');
-// });
-
-// test('sets a default name', t => {
-//   const { script } = t.context;
-//   t.is(script._name, 'script');
-// });
+test('returns correct name for hex colors', t => {
+  const { script } = t.context;
+  t.is(script.name('#3498db'), 'Bleu de France');
+});

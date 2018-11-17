@@ -43,12 +43,7 @@
     "node": ">=8.3"
   },
   "homepage": "https://github.com/evansque/coloraze",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
+
   "keywords": [
     "coloraze",
     "lass"
