@@ -30,13 +30,18 @@ const Coloraze = require('coloraze');
 
 const coloraze = new Coloraze();
 
-console.log(coloraze.renderName());
-// script
+console.log(coloraze.name('#fdd5b1')); // Light apricot
 ```
 
 ## License
 
 [MIT](LICENSE) © Evan Levesque
+
+## Contributors
+
+| Name              |
+| ----------------- |
+| **Evan Levesque** |
 
 ##
 
